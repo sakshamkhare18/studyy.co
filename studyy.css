@@ -18,7 +18,7 @@
     padding: 0;
     text-align: center;
     z-index: 1; 
-}  *
+}  
 
 .nevigtion ul li {
   
@@ -172,28 +172,26 @@
 }
 .wrapper2{
     margin-left: 15cm;
-    margin-bottom: 7cm;
+    margin-top: 3cm;
     position: relative;
     width: 440px;
-    height: 440px;
+    height: 500px;
     background: transparent;
     border: 2px solid #fff;
     align-items: center;
     border-radius: 20px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(0);
     box-shadow: #111;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 transition: .5s;
-    transform: scale(0);
-
-}
-
-.wrapper2.Active-popup{
     transform: scale(1);
+
 }
+
+
 .from-box-login{
     width: 100%;
     padding: 40px;
@@ -266,12 +264,11 @@ transition: .5s;
     border: none;
     outline: none;
     border-radius: 6px;
-    font-size: 1em;
+    font-size: 1.3em;
     transition: .5s;
 }
-.btn:hover{
-background: transparent;
-}
+
+
 .icon-close{
     color: #140404;
     position: absolute;
@@ -290,13 +287,14 @@ background: transparent;
     z-index: 1;
 }
 .banner1{
-   
+      margin-top: 3cm;
     display: flex;
     justify-content: center;
     align-items: center;
    height: 100vh;
 }
 .content1 h2 b{
+    margin-top: 4cm;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width:3px ;
     -webkit-text-stroke-color: #fff;
@@ -323,7 +321,7 @@ background: transparent;
 .svg{
     height: 150px;
 width: 150px;
-margin-bottom: 5pc;
+margin-bottom: -8pc;
 stroke: #fff;
 fill-opacity: 0;
 stroke-width: 7px;
@@ -463,7 +461,7 @@ color: beige;
     height: 420px;
     margin-left: 71%;
     border-radius: 20px;
-    margin-top: -4.3cm;
+    margin-top: -4.1cm;
     border: #111;
 }
 .phybook:hover{
@@ -491,6 +489,14 @@ color: beige;
     font-weight: 500;
     margin-left: 40px;
     transform: 5s;
+
+}
+ .btnbuy a{
+    color: #111;
+    text-decoration: none;
+}
+.btnbuy a:hover{
+    color:white ;
 
 }
 .btnbuy:hover{
@@ -541,3 +547,120 @@ color: beige;
     width: 650px;
    
 }
+.content{
+    margin-top: 4cm;
+}
+.icon-close{
+    color: #111;
+}
+.syll{
+ background:linear-gradient(rgb(51, 2, 7),rgb(10, 1, 51));
+
+}
+.contain5{
+    
+    margin-top: 1cm;
+  margin-left: 130px;
+    height: 460px;
+    width: 80%;
+    border: #f0e9e9 6px solid;
+    border-radius: 20px;
+    box-shadow: #7182e2;
+}
+.btnenrrol{
+    margin-top: -75px;
+    width: 260px;
+    height:75px;
+    background: transparent;
+    border: 2px solid #fafbfb;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #050101;
+    font-weight: 500;
+    margin-left: 40px;
+    transform: 5s;
+
+}
+.btnenrrol a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.btnenrrol a:hover{
+    color: #111;
+}
+.btnenrrol:hover{
+    background: #ffffff;
+    color: #f1f1f1;
+
+}
+
+.nevigtion1 {
+ 
+    list-style-type: none; 
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    z-index: 1; 
+}  
+
+.nevigtion1 ul li {
+  
+    display: inline;
+    float: left;
+    padding: 5px 10px; 
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  width: 255px;
+
+}
+
+.nevigtion1 ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nevigtion1 ul li a:hover {
+    background-color: #0072ff; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abo{
+    margin-left: 13.4cm;
+    text-align: center;
+    font-size: 35;
+    height: 300;
+    width: 500px;
+}
+.resister{
+    font-weight: 500;
+    color: #fff;
+    margin: -15px 0 15px;
+    font-size: .9em;
+    display: flex;
+    justify-content: space-between;
+}
+.resister a{
+    margin-top: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.resister a:hover{
+    text-decoration: underline;
+}
+.btnlogin-popup a{
+    color: antiquewhite;list-style:none ;text-decoration: none;
+}
+.btnlogin-popup a:hover{
+    color: black;
+}
+.syll1{
+    background:linear-gradient( rgb(8, 43, 39),royalblue,rgb(35, 35, 71));
+   
+   }
